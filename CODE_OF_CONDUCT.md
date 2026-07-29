@@ -104,3 +104,29 @@ This Code of Conduct is adapted from the [Contributor Covenant, v3.0](https://ww
 
 **Thank you for being part of MooVit.**  
 By upholding this Code of Conduct, we ensure our community remains a **safe, respectful, and empowering space** for everyone.
+
+## Troubleshooting
+
+### Installation fails
+- Ensure you are using the supported Node.js version.
+- Run `npm install` or `npm ci`.
+- Delete `node_modules` and reinstall dependencies if necessary.
+
+### Environment variables not loading
+- Verify that a `.env` file exists.
+- Ensure all required variables are defined.
+- Restart the development server after making changes.
+
+## FAQ
+
+### How do I start the project?
+Run:
+
+```bash
+npm install
+npm run dev
+```
+
+### How do I report a bug?
+Please open a GitHub issue with reproduction steps and relevant logs.
+
